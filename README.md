@@ -12,8 +12,10 @@ This repository hosts a microservices projects with Spring Cloud and Spring Boot
 
 ## Projects
     novamicroservice
-       |--- spring-boot-data-rest: exposes REST webservices via repositories 
-       |--- spring-boot-hateoas : RESTful using HATEOAS
+       |--- nova-configuration-service: Configuration service with Spring Config 
+       |--- nova-proxy-service : Proxy Service with Zuul
+       |--- nova-register-service : Register service with Eureka
+       |--- nova-service: RESTful using Spring REST Repositories
 ## To import this project into IntelliJ IDEA
 
 If you want to import these project into your local IDE setup - 

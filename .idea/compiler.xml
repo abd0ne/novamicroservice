@@ -2,16 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nova-register-service" />
+        <module name="nova-proxy-service" />
+        <module name="nova-configuration-service" />
         <module name="nova-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nova-confg-service" target="1.8" />
+      <module name="nova-config-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nova-confg-service" options="-parameters" />
+      <module name="nova-config-service" options="-parameters" />
+      <module name="nova-configuration-service" options="-parameters" />
+      <module name="nova-proxy-service" options="-parameters" />
+      <module name="nova-register-service" options="-parameters" />
       <module name="nova-service" options="-parameters" />
     </option>
   </component>

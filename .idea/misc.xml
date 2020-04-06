@@ -5,7 +5,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/nova-confg-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nova-config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nova-configuration-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nova-register-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nova-proxy-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/nova-config-service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
