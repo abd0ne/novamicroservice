@@ -16,7 +16,7 @@ This repository hosts a microservices projects with Spring Cloud and Spring Boot
        |--- nova-proxy-service : Proxy Service with Zuul
        |--- nova-register-service : Register service with Eureka
        |--- nova-service: RESTful using Spring REST Repositories
-## To import this project into IntelliJ IDEA
+## To import this project into STS or open with IntelliJ IDEA
 
 If you want to import these project into your local IDE setup - 
 
