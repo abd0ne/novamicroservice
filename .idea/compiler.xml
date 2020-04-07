@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nova-register-service" />
-        <module name="nova-proxy-service" />
-        <module name="nova-configuration-service" />
         <module name="nova-service" />
+        <module name="nova-configuration-service" />
+        <module name="nova-proxy-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
