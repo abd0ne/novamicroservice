@@ -22,10 +22,5 @@ If you want to import these project into your local IDE setup -
 
 1. Download the project as zip file into your computer
 2. Unzip the project at your desired location
-3. Import the project into Eclipse as existing maven project
-
-```
-File > Import... > Maven > Existing Maven Projects
-```
-
+3. Open with IntelliJ 
 4. Done
