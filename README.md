@@ -22,5 +22,10 @@ If you want to import these project into your local IDE setup -
 
 1. Download the project as zip file into your computer
 2. Unzip the project at your desired location
-3. Open with IntelliJ 
+3. Open project with IntelliJ or import into STS as existing maven project
+
+```
+File > Import... > Maven > Existing Maven Projects
+```
+
 4. Done
