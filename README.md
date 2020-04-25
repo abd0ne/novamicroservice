@@ -6,7 +6,7 @@ This repository hosts a microservices projects with Spring Cloud and Spring Boot
 
 * Spring Boot 2.2.6.RELEASE
 * Spring Cloud
-* Maven 4
+* Maven 3.2+
 * JDK 8
 * IntelliJ IDEA
 
